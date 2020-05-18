@@ -1,8 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
-import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
 import './App.css';
 
 const particlesOptions = {
@@ -24,10 +22,10 @@ function App() {
 	      params={particlesOptions}
 	    />
       <Navigation />
-      {/*<Logo />*/}
       <Rank />
       <ImageLinkForm />
       {/*  <FaceRecognition /> */}
+      <Logo />
     </div>
   );
 }
